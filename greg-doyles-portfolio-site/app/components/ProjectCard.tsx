@@ -17,9 +17,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className='flexItem'>
-                        <p className="para">
-                            <hr className="rounded"></hr>
-                        </p>
+                        <hr className="rounded"></hr>
                     </div>
                    <div className='flexItem'>
                     <p className="para">

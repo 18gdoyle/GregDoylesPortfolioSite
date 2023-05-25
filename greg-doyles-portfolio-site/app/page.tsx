@@ -1,10 +1,12 @@
 import WelcomeCard from './components/WelcomeCard'
-import ProjectCard from './components/ProjectCard'
+import HomePage from './pages/HomePage'
+import NavBar from './components/NavBar'
 
 export default function Home() {
   return (
     <main>
-      <ProjectCard></ProjectCard>
+      <NavBar></NavBar>
+      <HomePage></HomePage>
     </main>
   )
 }
