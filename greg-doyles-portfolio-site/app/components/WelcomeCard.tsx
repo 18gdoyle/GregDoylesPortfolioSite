@@ -12,10 +12,9 @@ export default function Home() {
               height={500}
               alt="" 
             />
+            <div className="welcomeCardText">This is a test</div>
           </figure>
         </article>
-
-        <h1>:hover</h1>
       </main>
     )
   }
