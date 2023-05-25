@@ -13,6 +13,10 @@ export default function Home({ pageSwitchEvent }: any) {
     pageSwitchEvent('homePage')
   }
 
+  function showContactPage() {
+    pageSwitchEvent('contactPage')
+  }
+
   return (
     <main>
       <div className="navBar">
@@ -25,6 +29,9 @@ export default function Home({ pageSwitchEvent }: any) {
           </div>
           <div onClick={showProjectsPage} className='clickableDiv'>
             Projects
+          </div>
+          <div onClick={showContactPage} className='clickableDiv'>
+            Contact Info
           </div>
         </div>
       </div>

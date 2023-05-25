@@ -6,7 +6,7 @@ export default function Home() {
       <main>
         <article>
           <figure>
-            <Image 
+            <Image className='welcomeCardImage'
               src="/assets/GregDoyleNoBackground.png"
               width={500}
               height={500}

@@ -37,7 +37,7 @@ figure:hover {
   --hover: 1;
 }
 
-img {
+.welcomeCardImage {
   position: absolute;
   bottom: 0%;
   width: 60%;
