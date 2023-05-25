@@ -16,7 +16,7 @@ export default function Home({ pageSwitchEvent }: any) {
   return (
     <main>
       <div className="navBar">
-        <div onClick={showHomePage} className='clickableDiv'>
+        <div onClick={showHomePage} className='clickableDiv navBarTitle'>
           Greg Doyle
         </div>
         <div className='navLinks'>

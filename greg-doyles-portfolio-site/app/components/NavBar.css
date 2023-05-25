@@ -21,3 +21,8 @@
 .clickableDiv {
     cursor: pointer;
 }
+
+.navBarTitle {
+    font-weight: 700;
+    font-size: 32px;
+}
