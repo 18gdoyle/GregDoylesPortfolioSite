@@ -17,3 +17,7 @@
     display: flex;
     gap: 2vw;
 }
+
+.clickableDiv {
+    cursor: pointer;
+}
