@@ -4,6 +4,7 @@ import WelcomeCard from './components/WelcomeCard'
 import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactInfoPage from './pages/ContactInfoPage'
+import ResumePage from './pages/ResumePage'
 import NavBar from './components/NavBar'
 import React from 'react'
 
@@ -32,11 +33,15 @@ export default function Home() {
   }
   return (
     <main>
-      <NavBar pageSwitchEvent={handlePageSwitchEvent}></NavBar>
-      <div className="pageContainer">
-        { showHomePage ? <HomePage /> : null }
-        { showProjectsPage ? <ProjectsPage /> : null }
-        { showContactPage ? <ContactInfoPage /> : null }
+      <div className="window">
+        <NavBar pageSwitchEvent={handlePageSwitchEvent}></NavBar>
+        <div className='navBarPadding'></div>
+        <div>
+          { showHomePage ? <HomePage /> : null }
+          { showProjectsPage ? <ProjectsPage /> : null }
+          { showContactPage ? <ContactInfoPage /> : null }
+          { showResumePage ? <ResumePage /> : null }
+        </div>
       </div>
     </main>
   )
