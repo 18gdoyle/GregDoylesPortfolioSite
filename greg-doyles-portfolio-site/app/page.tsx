@@ -36,7 +36,7 @@ export default function Home() {
       <div className="window">
         <NavBar pageSwitchEvent={handlePageSwitchEvent}></NavBar>
         <div className='navBarPadding'></div>
-        <div>
+        <div className="pageContent">
           { showHomePage ? <HomePage /> : null }
           { showProjectsPage ? <ProjectsPage /> : null }
           { showContactPage ? <ContactInfoPage /> : null }

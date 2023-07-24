@@ -29,3 +29,11 @@ body {
 .navBarPadding {
   height: 8vh;
 }
+
+.pageContent {
+  position: absolute;
+  top: 8vh;
+  height: 92vh;
+  width: 100vw;
+  overflow: auto;
+}

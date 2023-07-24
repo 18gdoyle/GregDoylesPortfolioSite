@@ -14,8 +14,8 @@ export default function Home() {
     }
 
     return (
-      <main>
-        <div className="card" onMouseEnter={enterHover} onMouseLeave={exitHover}>
+      <main className="timeLineCard" onMouseEnter={enterHover} onMouseLeave={exitHover}>
+        <div>
             <div className="content">
                 {maximizedContent ? 
                     <div>
