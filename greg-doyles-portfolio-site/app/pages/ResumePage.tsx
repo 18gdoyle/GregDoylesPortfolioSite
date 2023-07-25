@@ -29,6 +29,7 @@ export default function Home() {
                             <li>Gained experience with agile development, taking part in stand-ups every morning, and using GitHub for code reviews and merges.</li>
                         </div>
                     }
+                    color="orange"
                 />
                 <TimeLineCard 
                     date="2018-2022"
@@ -44,6 +45,33 @@ export default function Home() {
                             <li>CS 0445: Discrete Structures</li>
                         </div>
                     }
+                    color="green"
+                />
+                <TimeLineCard 
+                    date="2020-2022"
+                    title="University of Pittsburgh"
+                    subtitle="Resident Assistant"
+                    descriptionTitle="Notable Coursework"
+                    description={
+                        <div>
+                            <li>Provided a floor of 40 freshmen with information on campus resources such as housing and dining services, tutoring programs, and extracurricular activities.e</li>
+                            <li>Developed 2 floor programs a month to aid in residents’ transition to college and give them an opportunity to socialize with their peers. Programs included study tip seminars, game nights, etc.</li>
+                            <li>Created forms and polls to get feedback from residents on programs.</li>
+                        </div>
+                    }
+                />
+                <TimeLineCard 
+                    date="2022-Present"
+                    title="Devia Software"
+                    subtitle="Software Developer"
+                    description={
+                        <div>
+                            <li>Developing multiple full-stack web applications using Vue and .NET frameworks for the front-end and Azure services for the backend.</li>
+                            <li>Gaining significant experience with HTML5, CSS3, JavaScript, TypeScript, and JavaScript frameworks such as jQuery and Handlebars by developing tools and solutions for e-commerce web applications.</li>
+                            <li>Acquiring skills related to machine learning by developing, training, and testing an image classification model that is being built and deployed using TensorFlow, Python, Rust, and Docker.</li>
+                        </div>
+                    }
+                    color="purple"
                 />
             </div>
             <div className='timeLineLine'>
@@ -53,7 +81,6 @@ export default function Home() {
             </div>
             <div className='bottomOfTimeLine'>
                 <div className="marginDiv"></div>
-                <TimeLineCard />
             </div>
         </main>
     )
