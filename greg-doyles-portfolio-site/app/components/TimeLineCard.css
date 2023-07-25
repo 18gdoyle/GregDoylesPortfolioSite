@@ -1,10 +1,10 @@
 .timeLineCard {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 300px;
+    align-items: center;
     height: 80px;
+    width: 300px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 2vw;
     overflow: hidden;
@@ -21,6 +21,13 @@
     width: 30%;
     box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
     border-color: #0974f1;
+    justify-content: left;
+    align-items: start;
+}
+
+.red:hover {
+    box-shadow: 0 0 20px rgba(241, 9, 9, 0.925);
+    border-color: red;
 }
 
 .content {
@@ -35,10 +42,15 @@
 .content .heading {
     font-weight: 700;
     font-size: 32px;
+    line-height: 1;
 }
 
 .content .icon {
     font-size: 5vw;
+}
+
+.content .subtitle {
+    color: grey
 }
 
 .content .para {

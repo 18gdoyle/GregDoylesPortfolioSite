@@ -2,7 +2,7 @@ import './TimeLineCard.css';
 import './TimeLineCard';
 import React from 'react'
 
-export default function Home() {
+export default function Home(props: any) {
     const [maximizedContent, setMaximizedContent] = React.useState(false);
 
     function enterHover() {
@@ -14,44 +14,30 @@ export default function Home() {
     }
 
     return (
-      <main className="timeLineCard" onMouseEnter={enterHover} onMouseLeave={exitHover}>
+      <main className={`timeLineCard ${props.color}`} onMouseEnter={enterHover} onMouseLeave={exitHover}>
         <div>
             <div className="content">
                 {maximizedContent ? 
                     <div>
                         <div className="flexItem">
                             <p className="para">
-                                2014-2018
+                                {props.date}
                             </p>
                         </div>
                         <div className='flexItem'>
-                            <p className='heading'>Downingtown STEM Academy</p>
+                            <p className='heading'>{props.title}</p>
+                        </div>
+                        <div className="flexItem">
+                            <p className="subtitle">
+                                {props.subtitle}
+                            </p>
                         </div>
                         <div className="flexItem">
                             <p className="para">
-                                <strong>GPA:</strong> 3.8
-                            </p>
-                        </div>
-                        <div className="flexItem">
-                            <p className="para">
-                                <strong>Activities and Accomplishments:</strong>
-                                <li>
-                                    Ski and Snowboard Club
-                                </li>
-                                <li>
-                                    National Honors Society
-                                </li>
-                            </p>
-                        </div>
-                        <div className='flexItem'>
-                            <hr className="rounded"></hr>
-                        </div>
-                        <div className='flexItem'>
-                            <p className="para">
-                                <a href="https://lilacrust.com/" target="_blank" className='hover-underline-animation'>The Project</a>
-                            </p>
-                            <p className="para">
-                                <a href="https://github.com/18gdoyle/lilac-rust-website" target="_blank" className='hover-underline-animation'>The Code</a>
+                                <strong>{props.descriptionTitle}</strong>
+                                <div>
+                                    {props.description}
+                                </div>
                             </p>
                         </div>
                     </div>
@@ -59,7 +45,7 @@ export default function Home() {
                     <div>
                         <div className="flexItem">
                             <p className="para">
-                                2014-2018
+                                {props.date}
                             </p>
                         </div>
                     </div>
