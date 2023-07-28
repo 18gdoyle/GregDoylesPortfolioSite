@@ -1,7 +1,18 @@
+.homePageContainer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.welcomeBlockContainer {
+    top: 0;
+    height: 92vh;
+}
+
 .welcomeBlock {
     width: 50%;
     margin: auto;
-    margin-top: 10%;;
+    padding-top: 10%;;
 }
 
 .name {
@@ -12,6 +23,16 @@
 .description {
     font-size: 150%;
     color: lightgrey;
+}
+
+.vueColors {
+    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.vueColors::after {
+    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
 }
 
 .angularColors {
@@ -72,4 +93,44 @@
 
 .hoverUnderlineAnimation.amazonColors::after {
     background: -webkit-linear-gradient(315deg,#f90 55%,white);
+}
+
+.skillsDiv {
+    text-align: center;
+    font-weight: 700;
+    font-size: 400%;
+}
+.skillsAndFrameWorks {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.imageRow {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skillContainer {
+    width: 80px;
+}
+
+.skillName {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.skillImage {
+    display: block;
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    margin: auto;
 }

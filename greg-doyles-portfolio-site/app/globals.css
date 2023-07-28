@@ -64,13 +64,3 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-.vueColors {
-  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hoverUnderlineAnimation.vueColors::after {
-  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
-}
