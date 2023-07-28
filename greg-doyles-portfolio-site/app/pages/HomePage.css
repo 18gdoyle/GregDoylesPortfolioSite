@@ -1,0 +1,75 @@
+.welcomeBlock {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 400%;
+}
+
+.description {
+    font-size: 150%;
+    color: lightgrey;
+}
+
+.angularColors {
+    background: -webkit-linear-gradient(315deg,#dd1b16 25%,#b3b3b3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.angularColors::after {
+    background: -webkit-linear-gradient(315deg,#dd1b16 25%,#b3b3b3);
+}
+
+.reactColors {
+    background: -webkit-linear-gradient(315deg,#149dca 55%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.reactColors::after {
+    background: -webkit-linear-gradient(315deg,#149dca 55%,white);
+}
+
+.netColors {
+    background: -webkit-linear-gradient(315deg,#3d2a82 1%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.netColors::after {
+    background: -webkit-linear-gradient(315deg,#3d2a82 1%,white);
+}
+
+.mongoColors {
+    background: -webkit-linear-gradient(115deg,#25a315 1%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.mongoColors::after {
+    background: -webkit-linear-gradient(115deg,#25a315 1%,white);
+}
+
+.azureColors {
+    background: -webkit-linear-gradient(115deg,#007FFF 1%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.azureColors::after {
+    background: -webkit-linear-gradient(115deg,#007FFF 1%,white);
+}
+
+.amazonColors {
+    background: -webkit-linear-gradient(315deg,#f90 55%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.amazonColors::after {
+    background: -webkit-linear-gradient(315deg,#f90 55%,white);
+}

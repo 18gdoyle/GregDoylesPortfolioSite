@@ -37,3 +37,40 @@ body {
   width: 100vw;
   overflow: auto;
 }
+
+.inlineLink {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.hoverUnderlineAnimation {
+  display: inline-block;
+  position: relative;
+}
+
+.hoverUnderlineAnimation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderlineAnimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.vueColors {
+  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hoverUnderlineAnimation.vueColors::after {
+  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+}
