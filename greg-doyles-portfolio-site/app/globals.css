@@ -30,14 +30,6 @@ body {
   height: 8vh;
 }
 
-.pageContent {
-  position: absolute;
-  top: 8vh;
-  height: 92vh;
-  width: 100vw;
-  overflow: auto;
-}
-
 .inlineLink {
   display: inline;
   margin-bottom: 0;

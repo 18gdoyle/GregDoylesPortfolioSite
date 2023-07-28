@@ -1,11 +1,9 @@
 .homePageContainer {
-    position: absolute;
-    top: 0;
+    margin-top: 8vh;
     width: 100%;
 }
 
 .welcomeBlockContainer {
-    top: 0;
     height: 92vh;
 }
 
@@ -95,7 +93,7 @@
     background: -webkit-linear-gradient(315deg,#f90 55%,white);
 }
 
-.skillsDiv {
+.sectionHeader {
     text-align: center;
     font-weight: 700;
     font-size: 400%;
@@ -133,4 +131,10 @@
     width: auto;
     height: auto;
     margin: auto;
+}
+
+.skillImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 80px;
 }

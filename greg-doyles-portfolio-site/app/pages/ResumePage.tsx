@@ -4,6 +4,9 @@ import TimeLineCard from '../components/TimeLineCard'
 export default function Home() {
     return (
         <main className='timeLineContainer'>
+            <div className='sectionHeader'>
+                Resume
+            </div>
             <div className='topOfTimeLine'>
                 <TimeLineCard 
                     date="2014-2018"
