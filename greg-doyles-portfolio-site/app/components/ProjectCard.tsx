@@ -4,7 +4,7 @@ import './ProjectCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMusic } from '@fortawesome/free-solid-svg-icons'
 
-export default function Home() {
+export default function Home(props: any) {
     return (
       <main>
         <div className="card purple">
@@ -14,11 +14,11 @@ export default function Home() {
                 </div>
                 <div>
                     <div className='flexItem'>
-                        <p className='heading'>Music Link Page</p>
+                        <p className='heading'>{props.title}</p>
                     </div>
                     <div className="flexItem">
                         <p className="para">
-                            A music link page I designed using Vue 3, Vite, and Three.js
+                            {props.description}
                         </p>
                     </div>
                     <div className='flexItem'>
@@ -26,10 +26,10 @@ export default function Home() {
                     </div>
                    <div className='flexItem'>
                     <p className="para">
-                        <a href="https://lilacrust.com/" target="_blank" className='hover-underline-animation purpleGradient'>The Project</a>
+                        <a href={props.projectLink} target="_blank" className='hover-underline-animation purpleGradient'>The Project</a>
                     </p>
                     <p className="para">
-                        <a href="https://github.com/18gdoyle/lilac-rust-website" target="_blank" className='hover-underline-animation purpleGradient'>The Code</a>
+                        <a href={props.codeLink} target="_blank" className='hover-underline-animation purpleGradient'>The Code</a>
                     </p>
                    </div>
                 </div>
