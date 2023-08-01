@@ -3,21 +3,10 @@ import './TimeLineCard';
 import React from 'react'
 
 export default function Home(props: any) {
-    const [maximizedContent, setMaximizedContent] = React.useState(false);
-
-    function enterHover() {
-        setMaximizedContent(true);
-    }
-
-    function exitHover() {
-        setMaximizedContent(false);
-    }
-
     return (
-      <main className={`timeLineCard ${props.color}`} onMouseEnter={enterHover} onMouseLeave={exitHover}>
-        <div>
-            <div className="content">
-                {maximizedContent ? 
+        <main className={`timeLineCard ${props.color}`}>
+            <div className='textAndImages'>
+                <div className="timeLineContent">
                     <div>
                         <div className="flexItem">
                             <p className="para">
@@ -33,25 +22,24 @@ export default function Home(props: any) {
                             </p>
                         </div>
                         <div className="flexItem">
-                            <p className="para">
+                            <div className="para">
                                 <strong>{props.descriptionTitle}</strong>
-                                <div>
-                                    {props.description}
-                                </div>
-                            </p>
+                                {props.description}
+                            </div>
                         </div>
                     </div>
-                :
-                    <div>
-                        <div className="flexItem">
-                            <p className="para">
-                                {props.date}
-                            </p>
+                </div>
+                <div className="container">
+                    <div className="image-stack">
+                        <div className="image-stack__item image-stack__item--top">
+                            <img className='timeLineImage' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/portrait1.jpeg" alt="" />
+                        </div>
+                        <div className="image-stack__item image-stack__item--bottom">
+                            <img className='timeLineImage' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/texture-waves-cropped.jpg" alt="" />
                         </div>
                     </div>
-                }
+                </div>
             </div>
-        </div>
-      </main>
+        </main>
     )
-  }
+}

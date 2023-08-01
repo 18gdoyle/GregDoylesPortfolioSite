@@ -1,16 +1,16 @@
 .homePageContainer {
-    margin-top: 8vh;
     width: 100%;
 }
 
 .welcomeBlockContainer {
     height: 92vh;
+    display: flex;
 }
 
 .welcomeBlock {
     width: 50%;
     margin: auto;
-    padding-top: 10%;;
+    margin-top: 200px;
 }
 
 .name {

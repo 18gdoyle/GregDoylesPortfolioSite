@@ -10,15 +10,37 @@
     border-radius: 15px;
 }
 
-.timeLineContainer {
-    height: 100%;
+.horizontalScrollContainer {
+    height: 70%;
     width: 100%;
+    overflow-x: auto;
+    display: flex;
 }
 
-.topOfTimeLine {
+.resumeSectionHeader {
+    height: 15%;
+    width: 100%;
+    align-items: center;
     display: flex;
-    align-items: end;
-    height: 80%;
+    font-weight: 700;
+    font-size: 400%
+}
+
+.sectionHeaderTitle {
+    margin: auto;
+}
+.timeLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.timeLineContainer {
+    height: 92vh;
+    width: 100%;
 }
 
 .timeLineLine {
@@ -43,4 +65,55 @@
 
 .marginDiv {
     width: 10%;
+}
+
+.blankTimeLineSpace {
+    width: 25vw;
+}
+
+.timeLineButton {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 2vw;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #212121;
+    border: 2px solid #313131;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+    height: fit-content;
+}
+
+.timeLineButtons {
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.red {
+    box-shadow: 0 0 20px rgba(241, 9, 9, 0.925);
+    border-color: red;
+}
+
+.orange {
+    box-shadow: 0 0 20px rgba(241, 140, 9, 0.986);
+    border-color: orange;
+}
+
+.green {
+    box-shadow: 0 0 20px rgb(19, 151, 37);
+    border-color: green;
+}
+
+.purple {
+    box-shadow: 0 0 20px rgb(114, 19, 151);
+    border-color: purple;
+}
+
+.blue {
+    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+    border-color: #0974f1;
 }

@@ -59,7 +59,7 @@ body {
 
 * {
   scrollbar-width: auto;
-  scrollbar-color: #828282 #ffffff;
+  scrollbar-color: black;
 }
 
 /* Chrome, Edge, and Safari */
@@ -68,11 +68,11 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: darkgray
+  background: black
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: grey;
   border-radius: 10px;
-  border: 3px solid #828282;
+  border: 3px solid grey;
 }

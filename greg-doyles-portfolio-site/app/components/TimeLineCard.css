@@ -1,10 +1,10 @@
 .timeLineCard {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    width: 300px;
+    justify-content: left;
+    align-items: start;
+    height: 90%;
+    width: 60vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 2vw;
     overflow: hidden;
@@ -14,15 +14,6 @@
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
     margin: 2vw;
     bottom: 0;
-}
-
-.timeLineCard:hover {
-    height: fit-content;
-    width: 30%;
-    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
-    border-color: #0974f1;
-    justify-content: left;
-    align-items: start;
 }
 
 .red:hover {
@@ -45,34 +36,41 @@
     border-color: purple;
 }
 
-.content {
+.blue:hover {
+    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+    border-color: #0974f1;
+}
+
+.timeLineContent {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #e8e8e8;
     gap: 2vw;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    width: 50%;
+    padding-right: 2%;
 }
 
-.content .heading {
+.timeLineContent .heading {
     font-weight: 700;
     font-size: 32px;
     line-height: 1;
 }
 
-.content .icon {
+.timeLineContent .icon {
     font-size: 5vw;
 }
 
-.content .subtitle {
+.timeLineContent .subtitle {
     color: grey
 }
 
-.content .para {
+.timeLineContent .para {
     line-height: 1.5;
 }
 
-.content .btn {
+.timeLineContent .btn {
     color: #e8e8e8;
     text-decoration: none;
     padding: 10px;
@@ -84,13 +82,13 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.content .btn:hover {
+.timeLineContent .btn:hover {
     outline: 2px solid #e8e8e8;
     background: transparent;
     color: #e8e8e8;
 }
 
-.content .btn:active {
+.timeLineContent .btn:active {
     box-shadow: none;
 }
 
@@ -115,4 +113,41 @@ hr.rounded {
     border-radius: 5px;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.textAndImages {
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+
+.container {
+    padding-left: 2%;
+    width: 50%;
+    height: 100%;
+}
+
+.image-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100%;
+}
+
+.image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+.image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.timeLineImage {
+    width: 100%;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 200);
 }

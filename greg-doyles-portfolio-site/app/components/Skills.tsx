@@ -1,5 +1,4 @@
-import './ProjectCard.css';
-import './ProjectCard';
+import './Skills.css';
 import Image from 'next/image';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,7 +12,7 @@ export default function Home() {
                     Skills
                 </div>
                 <div className='skillsAndFrameWorks'>
-                    <div className='glassDiv languages'>
+                    <div className='skillsCard languages'>
                         <div className='title'>
                             Languages
                         </div>
@@ -134,7 +133,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='glassDiv'>
+                    <div className='skillsCard'>
                         <div className='title'>
                             Technologies and Frameworks
                         </div>
