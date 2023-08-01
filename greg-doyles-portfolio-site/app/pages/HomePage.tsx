@@ -1,15 +1,14 @@
 import './HomePage.css'
-import Image from 'next/image';
 import Skills from '../components/Skills'
 import ResumePage from '../pages/ResumePage'
 
 export default function Home() {
   return (
-    <main className='homePageContainer'>
+    <main className="homePageContainer">
       <div className="welcomeBlockContainer">
         <div className='welcomeBlock'>
           <div className="name">
-            Hello World, I'm Greg Doyle
+            Hello World, I&apos;m Greg Doyle
           </div>
           <div className="description">
             I am a Full Stack Software Developer with experience in developing web applications using frameworks and
