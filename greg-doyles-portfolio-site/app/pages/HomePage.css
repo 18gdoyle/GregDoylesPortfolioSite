@@ -3,14 +3,14 @@
 }
 
 .welcomeBlockContainer {
-    height: 92vh;
     display: flex;
+    margin-bottom: 20%;
 }
 
 .welcomeBlock {
-    width: 50%;
+    width: 75%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 8%;
 }
 
 .name {

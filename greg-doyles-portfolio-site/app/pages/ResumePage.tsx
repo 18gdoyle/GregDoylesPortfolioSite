@@ -120,13 +120,13 @@ export default function Home() {
                 </div>
             </div>
             <div className='timeLineButtons'>
-                <div className='timeLineButton' onClick={() => setTimeLineCardNumber(goBackInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleLeft} /></div>
-                <div className={`timeLineButton ${timeLineCardNumber === 1 ? 'red' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
-                <div className={`timeLineButton ${timeLineCardNumber === 2 ? 'orange' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
-                <div className={`timeLineButton ${timeLineCardNumber === 3 ? 'green' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
-                <div className={`timeLineButton ${timeLineCardNumber === 4 ? 'blue' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
-                <div className={`timeLineButton ${timeLineCardNumber === 5 ? 'purple' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
-                <div className='timeLineButton' onClick={() => setTimeLineCardNumber(goForwardInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleRight} /></div>
+                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goBackInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleLeft} /></div>
+                <div className={`timeLineButton redHover ${timeLineCardNumber === 1 ? 'red' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
+                <div className={`timeLineButton orangeHover ${timeLineCardNumber === 2 ? 'orange' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
+                <div className={`timeLineButton greenHover ${timeLineCardNumber === 3 ? 'green' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
+                <div className={`timeLineButton blueHover ${timeLineCardNumber === 4 ? 'blue' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
+                <div className={`timeLineButton purpleHover ${timeLineCardNumber === 5 ? 'purple' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
+                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goForwardInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleRight} /></div>
             </div>
         </main>
     )

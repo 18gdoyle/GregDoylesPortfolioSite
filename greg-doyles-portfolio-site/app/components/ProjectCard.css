@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 2vw;
     overflow: hidden;
@@ -11,7 +10,7 @@
     background: #212121;
     border: 2px solid #313131;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    margin: 2vw;
+    margin: 5%;
 }
 
 .content {
@@ -19,7 +18,7 @@
     flex-direction: row;
     align-items: center;
     color: #e8e8e8;
-    gap: 2vw;
+    gap: 5%;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -67,6 +66,16 @@
 
 .purpleGradient::after {
     background: -webkit-linear-gradient(315deg,#800080 1%,white);
+}
+
+.greenGradient {
+    background: -webkit-linear-gradient(315deg,#139725 .1%,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.greenGradient::after {
+    background: -webkit-linear-gradient(315deg,#139725 1%,white);
 }
   
 .hover-underline-animation:after {

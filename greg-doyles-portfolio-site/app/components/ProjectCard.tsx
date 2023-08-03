@@ -7,7 +7,7 @@ import { faMusic } from '@fortawesome/free-solid-svg-icons'
 export default function Home(props: any) {
     return (
       <main>
-        <div className="card purple">
+        <div className={`card ${props.color}`}>
             <div className="content">
                 <div>
                     <FontAwesomeIcon className='icon' icon={faMusic} />
@@ -26,10 +26,10 @@ export default function Home(props: any) {
                     </div>
                    <div className='flexItem'>
                     <p className="para">
-                        <a href={props.projectLink} target="_blank" className='hover-underline-animation purpleGradient'>The Project</a>
+                        <a href={props.projectLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}>The Project</a>
                     </p>
                     <p className="para">
-                        <a href={props.codeLink} target="_blank" className='hover-underline-animation purpleGradient'>The Code</a>
+                        <a href={props.codeLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}>The Code</a>
                     </p>
                    </div>
                 </div>

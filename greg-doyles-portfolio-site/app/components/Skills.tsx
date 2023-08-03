@@ -12,7 +12,7 @@ export default function Home() {
                     Skills
                 </div>
                 <div className='skillsAndFrameWorks'>
-                    <div className='skillsCard languages'>
+                    <div className='skillsCard whiteHover languages'>
                         <div className='title'>
                             Languages
                         </div>
@@ -133,7 +133,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='skillsCard'>
+                    <div className='skillsCard whiteHover'>
                         <div className='title'>
                             Technologies and Frameworks
                         </div>
