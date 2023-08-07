@@ -4,13 +4,16 @@
 
 .welcomeBlockContainer {
     display: flex;
-    margin-bottom: 20%;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
 }
 
 .welcomeBlock {
     width: 75%;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 25vh;
+    text-align: center;
 }
 
 .name {
@@ -24,73 +27,77 @@
 }
 
 .vueColors {
-    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.vueColors::after {
-    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
 }
 
 .angularColors {
-    background: -webkit-linear-gradient(315deg,#dd1b16 25%,#b3b3b3);
+    background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.angularColors::after {
-    background: -webkit-linear-gradient(315deg,#dd1b16 25%,#b3b3b3);
+    background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
 }
 
 .reactColors {
-    background: -webkit-linear-gradient(315deg,#149dca 55%,white);
+    background: -webkit-linear-gradient(315deg, #149dca 55%, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.reactColors::after {
-    background: -webkit-linear-gradient(315deg,#149dca 55%,white);
+    background: -webkit-linear-gradient(315deg, #149dca 55%, white);
 }
 
 .netColors {
-    background: -webkit-linear-gradient(315deg,#3d2a82 1%,white);
+    background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.netColors::after {
-    background: -webkit-linear-gradient(315deg,#3d2a82 1%,white);
+    background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
 }
 
 .mongoColors {
-    background: -webkit-linear-gradient(115deg,#25a315 1%,white);
+    background: -webkit-linear-gradient(115deg, #25a315 1%, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.mongoColors::after {
-    background: -webkit-linear-gradient(115deg,#25a315 1%,white);
+    background: -webkit-linear-gradient(115deg, #25a315 1%, white);
 }
 
 .azureColors {
-    background: -webkit-linear-gradient(115deg,#007FFF 1%,white);
+    background: -webkit-linear-gradient(115deg, #007FFF 1%, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.azureColors::after {
-    background: -webkit-linear-gradient(115deg,#007FFF 1%,white);
+    background: -webkit-linear-gradient(115deg, #007FFF 1%, white);
 }
 
 .amazonColors {
-    background: -webkit-linear-gradient(315deg,#f90 55%,white);
+    background: -webkit-linear-gradient(315deg, #f90 55%, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.amazonColors::after {
-    background: -webkit-linear-gradient(315deg,#f90 55%,white);
+    background: -webkit-linear-gradient(315deg, #f90 55%, white);
+}
+
+.hoverUnderlineAnimation.navBarColors::after {
+    background: -webkit-linear-gradient(315deg, white 55%, white);
 }
 
 .sectionHeader {
@@ -98,6 +105,7 @@
     font-weight: 700;
     font-size: 400%;
 }
+
 .skillsAndFrameWorks {
     display: flex;
 }
@@ -126,8 +134,8 @@
 
 .skillImage {
     display: block;
-    max-width:80px;
-    max-height:80px;
+    max-width: 80px;
+    max-height: 80px;
     width: auto;
     height: auto;
     margin: auto;
@@ -137,4 +145,49 @@
     display: flex;
     justify-content: center;
     height: 80px;
+}
+
+section {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(10000px);
+}
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(122, 8, 179) 50%, rgb(3, 52, 174) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
 }

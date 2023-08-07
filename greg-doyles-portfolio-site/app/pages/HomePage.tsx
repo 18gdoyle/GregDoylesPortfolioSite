@@ -1,10 +1,16 @@
 import './HomePage.css'
 import Skills from '../components/Skills'
 import ResumePage from '../pages/ResumePage'
+import ProjectsPage from '../pages/ProjectsPage'
 
 export default function Home() {
   return (
     <main className="homePageContainer">
+      <section>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      </section>
       <div className="welcomeBlockContainer">
         <div className='welcomeBlock'>
           <div className="name">
@@ -24,7 +30,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
       <Skills />
+      <ProjectsPage />
       <ResumePage />
     </main>
   )

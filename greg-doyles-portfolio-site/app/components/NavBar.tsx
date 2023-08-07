@@ -20,17 +20,17 @@ export default function Home({ pageSwitchEvent }: any) {
   return (
     <main>
       <div className="navBar">
-        <div onClick={showHomePage} className='clickableDiv navBarTitle'>
+        <div onClick={showHomePage} className='clickableDiv navBarTitle hoverUnderlineAnimation navBarColors' > 
           Greg Doyle
         </div>
         <div className='navLinks'>
-          <div onClick={showResumePage} className='clickableDiv'>
+          <div onClick={showResumePage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
             Resume
           </div>
-          <div onClick={showProjectsPage} className='clickableDiv'>
+          <div onClick={showProjectsPage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
             Projects
           </div>
-          <div onClick={showContactPage} className='clickableDiv'>
+          <div onClick={showContactPage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
             Contact Info
           </div>
         </div>

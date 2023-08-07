@@ -1,4 +1,6 @@
 .projectsContainer {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }

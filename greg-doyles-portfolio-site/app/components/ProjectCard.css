@@ -10,7 +10,22 @@
     background: #212121;
     border: 2px solid #313131;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    margin: 5%;
+    margin: 20px;
+    height: 100%;
+    width: 90%;
+}
+
+.projectIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+
+.projectText {
+    height: 100%;
+    width: 100%;
 }
 
 .content {
@@ -18,7 +33,7 @@
     flex-direction: row;
     align-items: center;
     color: #e8e8e8;
-    gap: 5%;
+    width: 100%;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
