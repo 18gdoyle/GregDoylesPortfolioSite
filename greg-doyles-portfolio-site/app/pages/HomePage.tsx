@@ -6,11 +6,6 @@ import ProjectsPage from '../pages/ProjectsPage'
 export default function Home() {
   return (
     <main className="homePageContainer">
-      <section>
-      <div className="bg"></div>
-      <div className="bg bg2"></div>
-      <div className="bg bg3"></div>
-      </section>
       <div className="welcomeBlockContainer">
         <div className='welcomeBlock'>
           <div className="name">
@@ -18,7 +13,7 @@ export default function Home() {
           </div>
           <div className="description">
             I am a Full Stack Software Developer with experience in developing web applications using frameworks and
-            technologies such as <a href="https://vuejs.org/" className="inlineLink hoverUnderlineAnimation vueColors" target='_blank'>Vue</a> 
+            technologies such as <a href="https://vuejs.org/" className="inlineLink hoverUnderlineAnimation vueColors" target='_blank'>Vue</a>
             , <a href='https://angular.io/' className="inlineLink hoverUnderlineAnimation angularColors" target='_blank'> Angular</a>
             , <a href='https://react.dev/' className="inlineLink hoverUnderlineAnimation reactColors" target='_blank'>React</a>
             , <a href='https://dotnet.microsoft.com/en-us/download' className="inlineLink hoverUnderlineAnimation netColors" target='_blank'>.NET</a>

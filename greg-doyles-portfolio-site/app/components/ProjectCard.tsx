@@ -38,10 +38,10 @@ export default function Home(props: any) {
                     </div>
                     <div className='flexItem'>
                         <p className="para">
-                            <a href={props.projectLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}>The Project</a>
+                            <a href={props.projectLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}><strong>The Project</strong></a>
                         </p>
                         <p className="para">
-                            <a href={props.codeLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}>The Code</a>
+                            <a href={props.codeLink} target="_blank" className={`hover-underline-animation ${props.color}Gradient`}><strong>The Code</strong></a>
                         </p>
                     </div>
                 </div>

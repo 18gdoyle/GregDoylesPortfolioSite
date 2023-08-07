@@ -25,13 +25,13 @@ export default function Home({ pageSwitchEvent }: any) {
         </div>
         <div className='navLinks'>
           <div onClick={showResumePage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
-            Resume
+            <strong>Resume</strong>
           </div>
           <div onClick={showProjectsPage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
-            Projects
+            <strong>Projects</strong>
           </div>
           <div onClick={showContactPage} className='clickableDiv hoverUnderlineAnimation navBarColors'>
-            Contact Info
+            <strong>Contact Info</strong>
           </div>
         </div>
       </div>

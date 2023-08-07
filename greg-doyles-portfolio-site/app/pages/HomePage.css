@@ -1,5 +1,6 @@
 .homePageContainer {
     width: 100%;
+    height: 100%;
 }
 
 .welcomeBlockContainer {
@@ -151,48 +152,4 @@
     display: flex;
     justify-content: center;
     height: 80px;
-}
-
-section {
-    position: absolute;
-    z-index: -2;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.bg {
-    animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, rgb(122, 8, 179) 50%, rgb(3, 52, 174) 50%);
-    bottom: 0;
-    left: -50%;
-    opacity: .5;
-    position: fixed;
-    right: -50%;
-    top: 0;
-    z-index: -1;
-}
-
-.bg2 {
-    animation-direction: alternate-reverse;
-    animation-duration: 4s;
-}
-
-.bg3 {
-    animation-duration: 5s;
-}
-
-h1 {
-    font-family: monospace;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(-25%);
-    }
-
-    100% {
-        transform: translateX(25%);
-    }
 }
