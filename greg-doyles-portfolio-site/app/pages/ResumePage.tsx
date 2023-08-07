@@ -45,7 +45,7 @@ export default function Home() {
                                             <li>National Honors Society</li>
                                         </div>
                                     }
-                                    color="red"
+                                    color="white"
                                 />
                             )
                         } else if (timeLineCardNumber === 2) {
@@ -64,7 +64,7 @@ export default function Home() {
                                             <li>CS 0445: Discrete Structures</li>
                                         </div>
                                     }
-                                    color="orange"
+                                    color="white"
                                 />
                             )
                         } else if (timeLineCardNumber === 3) {
@@ -80,7 +80,7 @@ export default function Home() {
                                             <li>Created forms and polls to get feedback from residents on programs.</li>
                                         </div>
                                     }
-                                    color="green"
+                                    color="white"
                                 />
                             )
                         } else if (timeLineCardNumber === 4) {
@@ -96,7 +96,7 @@ export default function Home() {
                                             <li>Gained experience with agile development, taking part in stand-ups every morning, and using GitHub for code reviews and merges.</li>
                                         </div>
                                     }
-                                    color="blue"
+                                    color="white"
                                 />
                             )
                         } else if (timeLineCardNumber === 5) {
@@ -112,7 +112,7 @@ export default function Home() {
                                             <li>Acquiring skills related to machine learning by developing, training, and timeLineCardNumbering an image classification model that is being built and deployed using TensorFlow, Python, Rust, and Docker.</li>
                                         </div>
                                     }
-                                    color="purple"
+                                    color="white"
                                 />
                             )
                         }
@@ -121,11 +121,11 @@ export default function Home() {
             </div>
             <div className='timeLineButtons'>
                 <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goBackInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleLeft} /></div>
-                <div className={`timeLineButton redHover ${timeLineCardNumber === 1 ? 'red' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
-                <div className={`timeLineButton orangeHover ${timeLineCardNumber === 2 ? 'orange' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
-                <div className={`timeLineButton greenHover ${timeLineCardNumber === 3 ? 'green' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
-                <div className={`timeLineButton blueHover ${timeLineCardNumber === 4 ? 'blue' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
-                <div className={`timeLineButton purpleHover ${timeLineCardNumber === 5 ? 'purple' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 1 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 2 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 3 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 4 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 5 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
                 <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goForwardInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleRight} /></div>
             </div>
         </main>

@@ -16,15 +16,15 @@ export default function Home() {
                     description="A music link page I designed using Vue 3, Vite, and Three.js"
                     projectLink="https://lilacrust.com/"
                     codeLink="https://github.com/18gdoyle/lilac-rust-website"
-                    color="purple"
+                    color="white"
                     icon="musicWebsite"
                 />
                 <ProjectCard 
                     title="Personal Portfolio Website"
                     description="The website you are currently browsing was built using React and Next.js"
-                    projectLink="https://lilacrust.com/"
-                    codeLink="https://github.com/18gdoyle/lilac-rust-website"
-                    color="green"
+                    projectLink="https://gregdoyle.pages.dev/"
+                    codeLink="https://github.com/18gdoyle/GregDoylesPortfolioSite"
+                    color="white"
                     icon="personalPortfolio"
                 />
             </div>

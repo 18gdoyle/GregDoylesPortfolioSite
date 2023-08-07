@@ -9,7 +9,7 @@ export default function Home(props: any) {
                 <div className="timeLineContent">
                     <div>
                         <div className="flexItem">
-                            <p className="para">
+                            <p className="subtitle">
                                 {props.date}
                             </p>
                         </div>

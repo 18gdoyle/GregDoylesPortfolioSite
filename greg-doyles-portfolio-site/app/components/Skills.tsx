@@ -113,7 +113,7 @@ export default function Home() {
                         <div className='imageRow'>
                             <div className='skillContainer'>
                                 <Image
-                                    src="/assets/rustLogo.png"
+                                    src="/assets/rustInvertedLogo.png"
                                     width={80}
                                     height={80}
                                     className='skillImage'
@@ -171,6 +171,120 @@ export default function Home() {
                                     />
                                 </div>
                                 <div className='skillName'>React</div>
+                            </div>
+                        </div>
+                        <div className='imageRow'>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/azureLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Azure</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/aws2Logo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>AWS</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/firebaseLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Firebase</div>
+                            </div>
+                        </div>
+                        <div className='imageRow'>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/githubInvertedLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>GitHub</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/tensorflowLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>TensorFlow</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/dockerLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Docker</div>
+                            </div>
+                        </div>
+                        <div className='imageRow'>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/windowsLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Windows</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/appleInvertedLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Mac OS</div>
+                            </div>
+                            <div className='skillContainer'>
+                                <div className='skillImageContainer'>
+                                    <Image
+                                        src="/assets/linuxLogo.png"
+                                        width={80}
+                                        height={80}
+                                        className='skillImage'
+                                        alt=""
+                                    />
+                                </div>
+                                <div className='skillName'>Linux</div>
                             </div>
                         </div>
                     </div>
