@@ -5,6 +5,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import ContactInfoPage from './pages/ContactInfoPage'
 import ResumePage from './pages/ResumePage'
 import NavBar from './components/NavBar'
+import MobileNavBar from './components/MobileNavBar'
 import React from 'react'
 
 export default function Home() {
@@ -54,6 +55,9 @@ export default function Home() {
         </section>
         <div className='backgroundOverlay'></div>
         <NavBar pageSwitchEvent={handlePageSwitchEvent}></NavBar>
+        <div className='mobileNavBar'>
+          <MobileNavBar pageSwitchEvent={handlePageSwitchEvent}></MobileNavBar>
+        </div>
         <div className='navBarPadding'></div>
         <div className="pageContent">
           {showHomePage ? <HomePage /> : null}

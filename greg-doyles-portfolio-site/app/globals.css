@@ -91,3 +91,25 @@ section {
 li {
   margin-top: 2%;
 }
+
+.mobileNavBar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #bg-wrap {
+    height: 100%;
+  }
+
+  #bg-wrap svg {
+    height: 100%;
+  }
+
+  .navBar {
+    display: none !important;
+  }
+
+  .mobileNavBar {
+    display: block;
+  }
+}
