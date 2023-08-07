@@ -4,3 +4,22 @@
     justify-content: center;
     align-items: center;
 }
+
+.projectsSectionHeader {
+    height: 15%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 400%
+}
+
+@media (max-width: 768px) {
+    .projectsSectionHeader {
+        font-size: 200%;
+    }
+
+    .projectsContainer {
+        display: block;
+    }
+}

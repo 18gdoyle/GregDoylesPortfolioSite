@@ -107,12 +107,6 @@
     background: -webkit-linear-gradient(315deg, white 55%, white);
 }
 
-.sectionHeader {
-    text-align: center;
-    font-weight: 700;
-    font-size: 400%;
-}
-
 .skillsAndFrameWorks {
     display: flex;
 }
@@ -152,4 +146,24 @@
     display: flex;
     justify-content: center;
     height: 80px;
+}
+
+@media (max-width: 768px) {
+    .welcomeBlock {
+        margin-top: 5vh;
+        width: 80%;
+    }
+
+    .welcomeBlockContainer {
+        height: 80%;
+    }
+
+    .name {
+        font-size: 200%;
+        margin-bottom: 5%;
+    }
+
+    .description {
+        font-size: 120%;
+    }
 }

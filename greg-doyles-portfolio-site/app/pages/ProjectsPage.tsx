@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard'
 export default function Home() {
     return (
         <main>
-            <div className='resumeSectionHeader'>
+            <div className='projectsSectionHeader'>
                 <div className="sectionHeaderTitle">
                     Projects
                 </div>

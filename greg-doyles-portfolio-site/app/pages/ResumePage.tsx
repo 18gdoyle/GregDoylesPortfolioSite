@@ -29,6 +29,15 @@ export default function Home() {
                     Resume
                 </div>
             </div>
+            <div className='timeLineButtons'>
+                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goBackInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleLeft} /></div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 1 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 2 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 3 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 4 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
+                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 5 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
+                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goForwardInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleRight} /></div>
+            </div>
             <div className='horizontalScrollContainer'>
                 <div className='timeLine'>
                     {(() => {
@@ -131,15 +140,6 @@ export default function Home() {
                         }
                     })()}
                 </div>
-            </div>
-            <div className='timeLineButtons'>
-                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goBackInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleLeft} /></div>
-                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 1 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(1)}>2014</div>
-                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 2 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(2)}>2018</div>
-                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 3 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(3)}>2020</div>
-                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 4 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(4)}>2021</div>
-                <div className={`timeLineButton whiteHover ${timeLineCardNumber === 5 ? 'white' : null}`} onClick={() => setTimeLineCardNumber(5)}>2022</div>
-                <div className='timeLineButton whiteHover' onClick={() => setTimeLineCardNumber(goForwardInTimeLine)}><FontAwesomeIcon className='icon' icon={faAngleRight} /></div>
             </div>
         </main >
     )

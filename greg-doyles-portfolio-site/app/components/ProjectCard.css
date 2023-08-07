@@ -154,3 +154,9 @@ hr.rounded {
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
+@media (max-width: 768px) {
+    .projectIcon {
+        display: none;
+    }
+}

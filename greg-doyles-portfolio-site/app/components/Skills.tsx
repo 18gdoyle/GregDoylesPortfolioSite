@@ -1,9 +1,6 @@
 import './Skills.css';
 import Image from 'next/image';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMusic } from '@fortawesome/free-solid-svg-icons'
-
 export default function Home() {
     return (
         <main>
