@@ -17,7 +17,7 @@ export default function Home() {
                 <br />
                 <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faPhone} /> 610-233-8733</h6>
                 <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faEnvelope} /> 18gdoyle@gmail.com</h6>
-                <h6 className="secondary-text"><a href='https://www.linkedin.com/in/gregoryvincentdoyle/' className="inlineLink hoverUnderlineAnimation contactCardColors" target='_blank'><strong>LinkedIn Profile</strong></a></h6>
+                <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faGlobe} /> <a href='https://www.linkedin.com/in/gregoryvincentdoyle/' className="inlineLink hoverUnderlineAnimation contactCardColors" target='_blank'><strong>LinkedIn Profile</strong></a></h6>
                 <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faGlobe} /> <a href='https://gregdoyle.pages.dev/' className="inlineLink hoverUnderlineAnimation contactCardColors" target='_blank'><strong>gregdoyle.com</strong></a></h6>
             </div>
     </main>
