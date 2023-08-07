@@ -1,6 +1,5 @@
 'use client'
 
-import WelcomeCard from './components/WelcomeCard'
 import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactInfoPage from './pages/ContactInfoPage'

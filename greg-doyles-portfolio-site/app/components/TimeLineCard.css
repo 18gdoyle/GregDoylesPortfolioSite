@@ -133,27 +133,17 @@ hr.rounded {
     height: 100%;
 }
 
-.image-stack {
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(12, 1fr);
+.resumeImage {
+    width: 100%;
     height: 100%;
-}
-
-.image-stack__item--bottom {
-    grid-column: 4 / -1;
-    grid-row: 1;
-}
-
-.image-stack__item--top {
-    grid-row: 1;
-    grid-column: 1 / span 8;
-    padding-top: 20%;
-    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeLineImage {
     width: 100%;
     display: block;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 200);
+    border-radius: 20px;
 }

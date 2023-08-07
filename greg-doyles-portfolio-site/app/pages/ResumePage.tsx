@@ -47,6 +47,7 @@ export default function Home() {
                                         </div>
                                     }
                                     color="white"
+                                    imageURL="https://drstaub.files.wordpress.com/2012/06/front1.jpg"
                                 />
                             )
                         } else if (timeLineCardNumber === 2) {
@@ -67,6 +68,7 @@ export default function Home() {
                                         </div>
                                     }
                                     color="white"
+                                    imageURL="https://www.pitt.edu/sites/default/files/styles/tier_one_hero/public/2021-07/mission-t1-cl-top-aerial.jpg?h=2c66ef4f&itok=YlGwAwOr"
                                 />
                             )
                         } else if (timeLineCardNumber === 3) {
@@ -85,6 +87,7 @@ export default function Home() {
                                         </div>
                                     }
                                     color="white"
+                                    imageURL="https://oaklandpittsburgh.com/media/W1siZiIsIjIwMjEvMDgvMDMvODJmNzczcmk4dF9Vbml2ZXJzaXR5X29mX1BpdHRzYnVyZ2guanBlZyJdXQ/University%20of%20Pittsburgh.jpeg"
                                 />
                             )
                         } else if (timeLineCardNumber === 4) {
@@ -103,6 +106,7 @@ export default function Home() {
                                         </div>
                                     }
                                     color="white"
+                                    imageURL="https://code.visualstudio.com/assets/docs/nodejs/angular/bracket-matching.png"
                                 />
                             )
                         } else if (timeLineCardNumber === 5) {
@@ -121,6 +125,7 @@ export default function Home() {
                                         </div>
                                     }
                                     color="white"
+                                    imageURL="https://media.licdn.com/dms/image/C4E1BAQGNU-D-lW-NfA/company-background_10000/0/1646248013642?e=1691917200&v=beta&t=ZEBGovR8G2krJBLxKvMd8M0ZfVDQartejCgKOv3y2kM"
                                 />
                             )
                         }

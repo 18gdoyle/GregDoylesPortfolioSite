@@ -30,13 +30,8 @@ export default function Home(props: any) {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="image-stack">
-                        <div className="image-stack__item image-stack__item--top">
-                            <img className='timeLineImage' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/portrait1.jpeg" alt="" />
-                        </div>
-                        <div className="image-stack__item image-stack__item--bottom">
-                            <img className='timeLineImage' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/texture-waves-cropped.jpg" alt="" />
-                        </div>
+                    <div className="resumeImage">
+                        <img className='timeLineImage' src={props.imageURL} alt="" />
                     </div>
                 </div>
             </div>
