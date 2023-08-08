@@ -3,7 +3,6 @@
     display: flex;
     justify-content: left;
     align-items: start;
-    height: 90%;
     width: 60vw;
     background-color: rgba(0, 0, 0, 0.25);  
     backdrop-filter: blur(5px);
@@ -48,14 +47,7 @@
 }
 
 .timeLineContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #e8e8e8;
-    gap: 2vw;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    width: 50%;
-    padding-right: 2%;
+    margin-bottom: 2%;
 }
 
 .timeLineContent .heading {
@@ -122,9 +114,7 @@ hr.rounded {
 }
 
 .textAndImages {
-    display: flex;
     width: 100%;
-    height: 100%
 }
 
 .container {
