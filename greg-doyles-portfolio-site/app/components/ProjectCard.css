@@ -12,6 +12,7 @@
     border: 2px rgba(0, 0, 0, 0.25);
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
     margin: 20px;
+    margin-top: 0;
     width: 90%;
     flex: 1;
 }
@@ -158,5 +159,11 @@ hr.rounded {
 @media (max-width: 768px) {
     .projectIcon {
         display: none;
+    }
+
+    .card {
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 5%;
     }
 }

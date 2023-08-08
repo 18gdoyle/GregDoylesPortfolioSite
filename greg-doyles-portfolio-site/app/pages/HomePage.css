@@ -13,7 +13,7 @@
 .welcomeBlock {
     width: 75%;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: calc(17vh);
     text-align: center;
 }
 
@@ -152,6 +152,7 @@
     .welcomeBlock {
         margin-top: 5vh;
         width: 80%;
+        margin-bottom: 5%;
     }
 
     .welcomeBlockContainer {
@@ -166,4 +167,8 @@
     .description {
         font-size: 120%;
     }
+}
+
+.pairedText span{
+    white-space: nowrap;
 }

@@ -8,18 +8,20 @@ export default function Home(props: any) {
             <div className='textAndImages'>
                 <div className="timeLineContent">
                     <div>
-                        <div className="flexItem">
-                            <p className="subtitle">
-                                {props.date}
-                            </p>
-                        </div>
-                        <div className='flexItem'>
-                            <p className='heading'>{props.title}</p>
-                        </div>
-                        <div className="flexItem">
-                            <p className="subtitle">
-                                {props.subtitle}
-                            </p>
+                        <div className='headingCentered'>
+                            <div className="flexItem">
+                                <p className="subtitle">
+                                    {props.date}
+                                </p>
+                            </div>
+                            <div className='flexItem'>
+                                <p className='heading'>{props.title}</p>
+                            </div>
+                            <div className="flexItem">
+                                <p className="subtitle">
+                                    {props.subtitle}
+                                </p>
+                            </div>
                         </div>
                         <div className="flexItem">
                             <div className="para">
