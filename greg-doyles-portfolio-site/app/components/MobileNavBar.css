@@ -21,6 +21,7 @@
     width: 100%;
     color: white;
     height: 8vh;
+    min-height: 50px;
     z-index: 12;
 }
 
