@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+.fiftyPercentOfContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
 .projectsSectionHeader {
     padding: 2%;
     width: 100%;
@@ -19,6 +25,11 @@
     }
 
     .projectsContainer {
+        display: block;
+    }
+
+    .fiftyPercentOfContainer {
+        width: 100%;
         display: block;
     }
 }

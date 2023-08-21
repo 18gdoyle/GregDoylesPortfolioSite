@@ -4,7 +4,7 @@ import './ProjectCard';
 import { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faMusic } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe, faMusic, faPaw } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home(props: any) {
     const [projectIcon] = useState(`${props.icon}`);
@@ -20,6 +20,10 @@ export default function Home(props: any) {
                         } else if (projectIcon === 'musicWebsite') {
                             return (
                                 <FontAwesomeIcon className='icon' icon={faMusic} />
+                            )
+                        } else if (projectIcon === 'petWebsite') {
+                            return (
+                                <FontAwesomeIcon className='icon' icon={faPaw} />
                             )
                         }
                     })()}
