@@ -37,7 +37,7 @@ export default function Home() {
                     <ProjectCard 
                         title="Personal Portfolio Website"
                         description="The website you are currently browsing was built using React and Next.js"
-                        projectLink="https://gregdoyle.pages.dev/"
+                        projectLink="https://gregoryvincentdoyle.com/"
                         codeLink="https://github.com/18gdoyle/GregDoylesPortfolioSite"
                         color="white"
                         icon="personalPortfolio"

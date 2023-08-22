@@ -3,7 +3,7 @@
     display: flex;
     justify-content: left;
     align-items: start;
-    width: 85%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.25);  
     backdrop-filter: blur(5px);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -150,6 +150,7 @@ hr.rounded {
 
     .timeLineCard {
         width: 90%;
+        margin-top: 8%;
         height: fit-content;
     }
 

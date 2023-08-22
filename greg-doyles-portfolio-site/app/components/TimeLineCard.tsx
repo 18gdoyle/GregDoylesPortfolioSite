@@ -31,11 +31,6 @@ export default function Home(props: any) {
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                    <div className="resumeImage">
-                        <img className='timeLineImage' src={props.imageURL} alt="" />
-                    </div>
-                </div>
             </div>
         </main>
     )
