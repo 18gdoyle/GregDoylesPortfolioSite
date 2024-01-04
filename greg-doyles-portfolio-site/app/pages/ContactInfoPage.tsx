@@ -15,8 +15,8 @@ export default function Home() {
                 <h6 className="primary-text">Greg Doyle</h6>
                 <h6 className="secondary-text">Software Engineer</h6>
                 <br />
-                <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faPhone} /> 610-233-8733</h6>
-                <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faEnvelope} /> 18gdoyle@gmail.com</h6>
+                <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faPhone} /> <a href='tel:610-233-8733' className="inlineLink hoverUnderlineAnimation contactCardColors"><strong>610-233-8733</strong></a></h6>
+                <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faEnvelope} /> <a href='mailto:18gdoyle@gmail.com' className="inlineLink hoverUnderlineAnimation contactCardColors"><strong>18gdoyle@gmail.com</strong></a></h6>
                 <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faGlobe} /> <a href='https://www.linkedin.com/in/gregoryvincentdoyle/' className="inlineLink hoverUnderlineAnimation contactCardColors" target='_blank'><strong>LinkedIn Profile</strong></a></h6>
                 <h6 className="secondary-text"><FontAwesomeIcon className='icon' icon={faGlobe} /> <a href='https://gregoryvincentdoyle.com/' className="inlineLink hoverUnderlineAnimation contactCardColors" target='_blank'><strong>gregoryvincentdoyle.com</strong></a></h6>
             </div>
