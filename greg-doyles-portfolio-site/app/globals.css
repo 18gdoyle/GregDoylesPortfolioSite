@@ -75,6 +75,26 @@ section {
   height: 100%;
 }
 
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .example::-webkit-scrollbar {
   display: none;
