@@ -92,10 +92,10 @@ export default function Home({ pageSwitchEvent }: any) {
                 </a>
                 .
               </span>{" "}
-              Whether it's building sleek interfaces, optimizing backend
-              processes, or ensuring seamless functionality across devices, I'm
+              Whether it&apos;s building sleek interfaces, optimizing backend
+              processes, or ensuring seamless functionality across devices, I&apos;m
               dedicated to delivering solutions that not only meet but exceed
-              expectations. From concept to deployment and beyond, I'm here to
+              expectations. From concept to deployment and beyond, I&apos;m here to
               transform your vision into reality.
               <br />
               <br />
