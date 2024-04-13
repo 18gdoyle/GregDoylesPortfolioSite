@@ -103,7 +103,6 @@
 a {
     color: #0974f1;
     display: block;
-    margin-bottom: 15px
 }
 
 hr.rounded {
@@ -118,7 +117,6 @@ hr.rounded {
 }
 
 .container {
-    padding-left: 2%;
     width: 50%;
     height: 100%;
 }

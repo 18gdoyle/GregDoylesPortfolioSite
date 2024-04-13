@@ -88,7 +88,7 @@
 .whiteGradient {
     background: -webkit-linear-gradient(315deg,white .1%,white);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
 }
 
 .whiteGradient::after {
@@ -146,7 +146,12 @@
 a {
     color: #0974f1;
     display: block;
-    margin-bottom: 15px
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr.rounded {
@@ -154,6 +159,14 @@ hr.rounded {
     border-radius: 5px;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.projectAndCodeButtons {
+    justify-content: space-evenly;
+}
+
+.projectAndCodeButtons .longButton {
+    width: 40%;
 }
 
 @media (max-width: 768px) {
@@ -165,5 +178,17 @@ hr.rounded {
         margin: auto;
         margin-top: 0;
         margin-bottom: 5%;
+    }
+
+    .longButton.white {
+        background: rgba(255, 255, 255, 0.2);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .divider {
+        display: none;
     }
 }

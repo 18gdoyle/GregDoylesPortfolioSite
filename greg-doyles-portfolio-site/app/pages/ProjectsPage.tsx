@@ -7,7 +7,7 @@ export default function Home() {
         <main>
             <div className='projectsSectionHeader'>
                 <div className="sectionHeaderTitle">
-                    Projects
+                    Past Projects
                 </div>
             </div>
             <div className='projectsContainer'>

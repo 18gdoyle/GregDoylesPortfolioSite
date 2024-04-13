@@ -1,174 +1,224 @@
 .homePageContainer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .welcomeBlockContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .welcomeBlock {
-    width: 75%;
-    margin: auto;
-    margin-top: calc(17vh);
-    text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: max(10vh, 80px);
+  text-align: center;
 }
 
 .name {
-    font-weight: 700;
-    font-size: 400%;
+  font-weight: 700;
+  font-size: 400%;
 }
 
 .description {
-    font-size: 150%;
-    color: lightgrey;
+  font-size: 150%;
+  color: lightgrey;
 }
 
 .vueColors {
-    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.vueColors::after {
-    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
 }
 
 .angularColors {
-    background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.angularColors::after {
-    background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
+  background: -webkit-linear-gradient(315deg, #dd1b16 25%, #b3b3b3);
 }
 
 .reactColors {
-    background: -webkit-linear-gradient(315deg, #149dca 55%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, #149dca 55%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.reactColors::after {
-    background: -webkit-linear-gradient(315deg, #149dca 55%, white);
+  background: -webkit-linear-gradient(315deg, #149dca 55%, white);
 }
 
 .netColors {
-    background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.netColors::after {
-    background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
+  background: -webkit-linear-gradient(315deg, #3d2a82 1%, white);
 }
 
 .mongoColors {
-    background: -webkit-linear-gradient(115deg, #25a315 1%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(115deg, #25a315 1%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.mongoColors::after {
-    background: -webkit-linear-gradient(115deg, #25a315 1%, white);
+  background: -webkit-linear-gradient(115deg, #25a315 1%, white);
 }
 
 .azureColors {
-    background: -webkit-linear-gradient(115deg, #007FFF 1%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(115deg, #007fff 1%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.azureColors::after {
-    background: -webkit-linear-gradient(115deg, #007FFF 1%, white);
+  background: -webkit-linear-gradient(115deg, #007fff 1%, white);
 }
 
 .amazonColors {
-    background: -webkit-linear-gradient(315deg, #f90 55%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, #f90 55%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.amazonColors::after {
-    background: -webkit-linear-gradient(315deg, #f90 55%, white);
+  background: -webkit-linear-gradient(315deg, #f90 55%, white);
 }
 
 .navBarColors {
-    background: -webkit-linear-gradient(315deg, white 55%, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(315deg, white 55%, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hoverUnderlineAnimation.navBarColors::after {
-    background: -webkit-linear-gradient(315deg, white 55%, white);
+  background: -webkit-linear-gradient(315deg, white 55%, white);
 }
 
 .skillsAndFrameWorks {
-    display: flex;
+  display: flex;
 }
 
 .title {
-    text-align: center;
-    font-weight: 400;
-    font-size: 200%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 200%;
 }
 
 .imageRow {
-    padding-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .skillContainer {
-    width: 80px;
+  width: 80px;
 }
 
 .skillName {
-    padding-top: 5%;
-    text-align: center;
+  padding-top: 5%;
+  text-align: center;
 }
 
 .skillImage {
-    display: block;
-    max-width: 80px;
-    max-height: 80px;
-    width: auto;
-    height: auto;
-    margin: auto;
+  display: block;
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  margin: auto;
 }
 
 .skillImageContainer {
-    display: flex;
-    justify-content: center;
-    height: 80px;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.longButton {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border-radius: 100vh;
+  background-color: #ffffff26;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  padding: 1%;
+  cursor: pointer;
+}
+
+.buttonText {
+  font-size: max(1vw, 20px);
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  gap: max(5vw, 20px);
+}
+
+.buttonContainer .longButton {
+  width: 50%;
+}
+
+.pairedText span {
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-    .welcomeBlock {
-        margin-top: 5vh;
-        width: 80%;
-        margin-bottom: 5%;
-    }
+  .buttonContainer {
+    flex-direction: column;
+  }
 
-    .welcomeBlockContainer {
-        height: 80%;
-    }
+  .buttonContainer .longButton {
+    width: 80%;
+  }
 
-    .name {
-        font-size: 200%;
-        margin-bottom: 5%;
-    }
+  .buttonText {
+    font-size: max(4vw, 20px);
+  }
 
-    .description {
-        font-size: 120%;
-    }
+  .welcomeBlock {
+    margin-top: 5vh;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .welcomeBlockContainer {
+    height: 80%;
+    margin-bottom: 2%;
+  }
+
+  .name {
+    font-size: 10vw;
+    margin-bottom: 5%;
+  }
+
+  .description {
+    font-size: min(150%, 5vw);
+  }
 }
 
-.pairedText span{
-    white-space: nowrap;
+@media (max-width: 400px) {
+  .description {
+    font-size: min(150%, 4.2vw);
+  }
 }

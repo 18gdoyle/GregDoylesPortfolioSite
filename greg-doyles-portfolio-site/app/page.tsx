@@ -55,12 +55,9 @@ export default function Home() {
         </section>
         <div className='backgroundOverlay'></div>
         <NavBar pageSwitchEvent={handlePageSwitchEvent}></NavBar>
-        <div className='mobileNavBar'>
-          <MobileNavBar pageSwitchEvent={handlePageSwitchEvent}></MobileNavBar>
-        </div>
         <div className='navBarPadding'></div>
         <div className="pageContent">
-          {showHomePage ? <HomePage /> : null}
+          {showHomePage ? <HomePage pageSwitchEvent={handlePageSwitchEvent} /> : null}
           {showProjectsPage ? <ProjectsPage /> : null}
           {showContactPage ? <ContactInfoPage /> : null}
           {showResumePage ? <ResumePage /> : null}

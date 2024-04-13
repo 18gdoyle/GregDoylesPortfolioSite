@@ -140,16 +140,6 @@
     border-color: purple;
 }
 
-.white {
-    box-shadow: 0 0 20px rgb(255, 255, 255);
-    border-color: white;
-}
-
-.whiteHover:hover {
-    box-shadow: 0 0 20px rgb(255, 255, 255);
-    border-color: white;
-}
-
 @media (max-width: 768px) {
     .resumeSectionHeader {
         font-size: 200%;
