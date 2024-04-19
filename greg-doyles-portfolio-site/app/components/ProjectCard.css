@@ -169,6 +169,10 @@ hr.rounded {
     width: 40%;
 }
 
+.subTitle {
+    color: lightgrey;
+}
+
 @media (max-width: 768px) {
     .projectIcon {
         display: none;

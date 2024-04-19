@@ -27,6 +27,9 @@ export default function Home(props: any) {
             <p className="heading">{props.title}</p>
           </div>
           <div className="flexItem">
+            <p className="subTitle">{props.date}</p>
+          </div>
+          <div className="flexItem">
             <p className="para">{props.description}</p>
           </div>
           <div className="flexItem divider">

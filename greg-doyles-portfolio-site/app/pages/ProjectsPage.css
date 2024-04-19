@@ -19,6 +19,10 @@
     font-size: 400%
 }
 
+p.subTitle {
+    padding-bottom: 1%;
+}
+
 @media (max-width: 768px) {
     .projectsSectionHeader {
         font-size: 200%;
@@ -33,12 +37,16 @@
         display: block;
     }
 
-    p.heading {
+    p.heading, p.subTitle {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         width: 100%;
+    }
+
+    p.subTitle {
+        padding-bottom: 2%;
     }
 
     p.para {
