@@ -1,0 +1,59 @@
+.projectsContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.fiftyPercentOfContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.projectsSectionHeader {
+    padding: 2%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 400%
+}
+
+p.subTitle {
+    padding-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+    .projectsSectionHeader {
+        font-size: 200%;
+    }
+
+    .projectsContainer {
+        display: block;
+    }
+
+    .fiftyPercentOfContainer {
+        width: 100%;
+        display: block;
+    }
+
+    p.heading, p.subTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    p.subTitle {
+        padding-bottom: 2%;
+    }
+
+    p.para {
+        text-align: center;
+    }
+
+    .flexItem {
+        display: flex;
+    }
+}
