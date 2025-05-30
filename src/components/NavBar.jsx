@@ -74,7 +74,7 @@ export default function Home({ pageSwitchEvent }) {
         <div className="navBarTitleContainer">
           <div
             onClick={showHomePage}
-            className="clickableDiv navBarTitle hoverUnderlineAnimation navBarColors"
+            className="clickableDiv navBarTitle navBarColors"
           >
             Greg Doyle
           </div>

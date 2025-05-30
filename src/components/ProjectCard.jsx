@@ -9,7 +9,7 @@ import { faGlobe, faMusic, faPaw } from "@fortawesome/free-solid-svg-icons";
 export default function Home(props) {
   const [projectIcon] = useState(`${props.icon}`);
   return (
-    <main className={`card ${props.color}`}>
+    <main className={`card`}>
       <div className="content">
         <div className="projectIcon">
           {(() => {
@@ -39,14 +39,14 @@ export default function Home(props) {
             <a
               href={props.projectLink}
               target="_blank"
-              className="longButton white"
+              className="longButton"
             >
               <div><p className="para">The Project</p></div>
             </a>
             <a
               href={props.codeLink}
               target="_blank"
-              className="longButton white"
+              className="longButton"
             >
               <div><p className="para">The Code</p></div>
             </a>

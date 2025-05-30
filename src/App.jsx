@@ -3,7 +3,6 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactInfoPage from "./pages/ContactInfoPage";
-import ResumePage from "./pages/ResumePage";
 import NavBar from "./components/NavBar";
 import React from "react";
 

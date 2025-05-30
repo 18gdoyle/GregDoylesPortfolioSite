@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="contactCard">
             <div className='contactCardImageContainer'>
-                <img className="contactCard-img" src="/assets/GregDoyle.jpg" width={1930} height={1930} alt={''} />
+                <img className="contactCard-img" src="/assets/GregDoyle.jpg" alt={''} />
             </div>
             <div className="desc">
                 <h6 className="primary-text">Greg Doyle</h6>

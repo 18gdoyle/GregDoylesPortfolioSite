@@ -146,6 +146,7 @@
 a {
     color: #0974f1;
     display: block;
+    text-decoration: none;
 }
 
 .centered {
@@ -155,7 +156,6 @@ a {
 }
 
 hr.rounded {
-    border-top: 2px solid #bbb;
     border-radius: 5px;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -167,10 +167,15 @@ hr.rounded {
 
 .projectAndCodeButtons .longButton {
     width: 40%;
+    font-weight: 500;
 }
 
 .subTitle {
     color: lightgrey;
+}
+
+.projectsSectionHeader {
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -194,5 +199,10 @@ hr.rounded {
 
     .divider {
         display: none;
+    }
+
+    .projectAndCodeButtons {
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
 }
